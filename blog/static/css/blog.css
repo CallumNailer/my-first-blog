@@ -6,7 +6,7 @@
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #f0f0f0;
-    font-size: 36pt;
+    font-size: 36px;
     text-decoration: none;
 }
 
@@ -14,7 +14,7 @@
     margin-left: 40px;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, p, a {
     font-family: Helvetica;
 }
 
