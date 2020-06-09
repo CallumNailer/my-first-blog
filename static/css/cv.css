@@ -1,0 +1,29 @@
+.work_experiance {
+    margin-left: 30px;
+}
+
+.personal_details {
+  text-align: center;
+  background-color: 000000;
+}
+
+.job {
+  margin-left: 20px;
+  margin-top: -10px;
+  background-color: #f0f0f0;
+  text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: Helvetica;
+}
+
+#blog_link {
+  float: right;
+  margin-top: -50px
+}
+
+#pref_name {
+  text-align: center;
+  color: #fff000;
+}
