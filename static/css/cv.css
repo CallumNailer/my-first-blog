@@ -1,15 +1,22 @@
 .work_experiance {
+    float: top;
     margin-left: 30px;
 }
 
 .personal_details {
+  float: top;
   text-align: center;
-  background-color: khaki;
+}
+
+#portrait{
+  float:left;
+  margin-top: -85px;
 }
 
 .job {
   margin-left: 20px;
-  margin-top: -10px;
+  margin-top: 10px;
+  margin-right:50px;
   background-color: #f0f0f0;
   text-align: justify;
 }
@@ -25,5 +32,4 @@ h1, h2, h3, h4, h5, h6, p {
 
 #pref_name {
   text-align: center;
-  color: #fff000;
 }

@@ -10,8 +10,16 @@
     </head>
     <body>
         <div class="page-header">
+            {% if user.is_authenticated %}
+              <a href="{% url 'cv' %}" class="top-menu">CV - Unlocked</a>
+              <p class="top-menu">Hello {{ user.username }} <small>(<a href="{% url 'logout' %}">Log out</a>)</small></p>
+
+            {% else %}
+              <a href="{% url 'login' %}" class="top-menu">CV - locked</a>
+            {% endif %}
+
             <h1><a href="/">Callum's Blog</a></h1>
-            <h1 id="cv_link"><a href="cv">CV</a></h1>
+
         </div>
 
         <div class="aims">
