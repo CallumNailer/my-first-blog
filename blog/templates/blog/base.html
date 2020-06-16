@@ -11,11 +11,12 @@
     <body>
         <div class="page-header">
             {% if user.is_authenticated %}
-              <a href="{% url 'cv' %}" class="top-menu">CV - Unlocked</a>
+              <a href="{% url 'cv' %}" class="top-menu">CV</a>
               <p class="top-menu">Hello {{ user.username }} <small>(<a href="{% url 'logout' %}">Log out</a>)</small></p>
 
             {% else %}
-              <a href="{% url 'login' %}" class="top-menu">CV - locked</a>
+              <a href="{% url 'login' %}" class="top-menu">Log in</a>
+              <a href="{% url 'login' %}" class="top-menu">CV</a>
             {% endif %}
 
             <h1><a href="/">Callum's Blog</a></h1>
