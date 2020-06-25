@@ -9,8 +9,28 @@
   background-color: #e6e6e6;
 }
 
+.school {
+  padding-left: 2%;
+  padding-bottom: 2%;
+  margin-top: -2%;
+}
+
 #pref_name, #dob {
   margin-left: 30%;
+}
+
+.skills {
+  margin-top: -7%;
+}
+
+.skills1 {
+  width: 50%;
+  float: left;
+}
+
+.skills2 {
+  width: 50%;
+  float: left;
 }
 
 .contact {
