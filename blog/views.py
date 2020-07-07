@@ -10,3 +10,6 @@ def post_list(request):
 @login_required
 def cv(request):
     return render(request, 'blog/cv.html', {})
+
+def gallery(request):
+    return render(request, 'blog/gallery.html', {})

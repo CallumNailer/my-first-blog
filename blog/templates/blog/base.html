@@ -13,21 +13,17 @@
             {% if user.is_authenticated %}
               <p class="top-menu">Hello {{ user.username }} <small>(<a href="{% url 'logout' %}">Log out</a>)</small></p>
               <a href="{% url 'cv' %}" class="top-menu">CV</a>
+              <a href="{% url 'gallery' %}" class="top-menu">Gallery</a>
             {% else %}
               <a href="{% url 'login' %}" class="top-menu">Log in</a>
               <a href="{% url 'login' %}" class="top-menu">CV</a>
+              <a href="{% url 'gallery' %}" class="top-menu">Gallery</a>
             {% endif %}
 
-            <h1><a href="/">Callum's Blog</a></h1>
+            <h1><a href="/" class="top-menu-left">Callum's Blog</a></h1>
 
         </div>
         <div class="content">
-          <div class="aims">
-              <h2>Aims:</h2>
-              <ul><li>Professional looking</li><li>CV will be avaliable through the blog</li><li>To show my work through the first year of my uni</li></ul>
-              <h2><centre>~~~ (In progress) ~~~</centre></h2>
-          </div>
-
 
           <div class="content_container">
               <div class="row">
