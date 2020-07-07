@@ -1,0 +1,36 @@
+.header {
+    width: 100%;
+    background-color:#48D1CC;
+    padding: 2%;
+}
+
+#title {
+    text-align:left;
+    padding-left:2%;
+
+}
+
+#link {
+    text-align: right;
+    padding-left: 76%;
+}
+
+h1 {
+    display: inline;
+}
+
+.content: {
+    width: 100%;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 20%;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
